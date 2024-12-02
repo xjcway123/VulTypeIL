@@ -1,4 +1,4 @@
-# Prompt Tuning-based Software Vulnerability Assessment with Continual Learning
+# Learning Never Stops: Improving Software Vulnerability Type Identification via Incremental Learning
 
 This is the source code to the paper "Learning Never Stops: Improving Software Vulnerability Type Identification via Incremental Learning". Please refer to the paper for the experimental details.
 

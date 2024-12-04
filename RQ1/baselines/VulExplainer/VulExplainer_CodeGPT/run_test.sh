@@ -1,0 +1,19 @@
+python student_codegpt2_main.py \
+    --alpha 0.7 \
+    --beta 0.9 \
+    --output_dir=./saved_models \
+    --model_name=soft_distil_model.bin \
+    --tokenizer_name=microsoft/CodeGPT-small-java-adaptedGPT2 \
+    --model_name_or_path=microsoft/CodeGPT-small-java-adaptedGPT2 \
+    --train_data_file=../../mydata/train.csv \
+    --eval_data_file=../../mydata/val.csv \
+    --test_data_file=../../mydata/test.csv \
+    --do_test \
+    --block_size 512 \
+    --epochs 50 \
+    --train_batch_size 8 \
+    --eval_batch_size 8 \
+    --learning_rate 2e-5 \
+    --max_grad_norm 1.0 \
+    --evaluate_during_training \
+    --seed 123456  2>&1 | tee test.log

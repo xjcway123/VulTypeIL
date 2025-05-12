@@ -6,6 +6,7 @@ This is the source code to the paper "Learning Never Stops: Improving Software V
 <img src="figs/framework.png">
 
 ## Datasets
+Our dataset is licensed under the GPL 3.0, as found in the [LICENSE](LICENSE) file.
 The processed dataset you can download from <a href="https://drive.google.com/drive/folders/1GuchdeFsGUKh8tvCles9kcjIcC-loD5v?usp=drive_link">Google Drive</a>.
 
 ## Requriements
